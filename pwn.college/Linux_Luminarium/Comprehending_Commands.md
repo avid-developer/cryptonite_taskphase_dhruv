@@ -29,35 +29,35 @@
 > Watch out! The next clue is **trapped**. You'll need to read it out without 'cd'ing into the directory; otherwise, the clue will self destruct!
 - ran `ls /usr/lib/python3/dist-packages/sympy/calculus/__pycache__` in the terminal to list all files in the directory
 - found the file `CUE-TRAPPED` and ran `cat /usr/lib/python3/dist-packages/sympy/calculus/__pycache__/CUE-TRAPPED` in the terminal to get the next clue:
-> Lucky listing!
-> The next clue is in: /opt/ghidra/Ghidra/Processors/TI_MSP430/data/manuals
+> Lucky listing!  
+The next clue is in: /opt/ghidra/Ghidra/Processors/TI_MSP430/data/manuals
 - ran `ls /opt/ghidra/Ghidra/Processors/TI_MSP430/data/manuals` in the terminal to list all files in the directory
 - found the file `INSIGHT` and ran `cat /opt/ghidra/Ghidra/Processors/TI_MSP430/data/manuals/INSIGHT` in the terminal to get the next clue:
-> Yahaha, you found me!
-> The next clue is in: /usr/share/icons/ubuntu-mono-light/animations
+> Yahaha, you found me!  
+The next clue is in: /usr/share/icons/ubuntu-mono-light/animations
 
 > The next clue is **delayed** --- it will not become readable until you enter the directory with 'cd'.
 - ran `cd /usr/share/icons/ubuntu-mono-light/animations` in the terminal to change the directory to `/usr/share/icons/ubuntu-mono-light/animations`
 - ran `ls` in the terminal to list all files in the directory
 - found the file `NOTE` and ran `cat NOTE` in the terminal to get the next clue:
-> Tubular find!
-> The next clue is in: /opt/linux/linux-5.4/drivers/gpu/drm/nouveau/nvkm/subdev/top
+> Tubular find!  
+The next clue is in: /opt/linux/linux-5.4/drivers/gpu/drm/nouveau/nvkm/subdev/top
 
 > The next clue is **hidden** --- its filename starts with a '.' character. You'll need to look for it using special options to 'ls'.
 - ran `ls -a /opt/linux/linux-5.4/drivers/gpu/drm/nouveau/nvkm/subdev/top` in the terminal to list all files in the directory, including hidden files
 - found the hidden file `.DOSSIER` and ran `cat /opt/linux/linux-5.4/drivers/gpu/drm/nouveau/nvkm/subdev/top/.DOSSIER` in the terminal to get the next clue:
-> Yahaha, you found me!
-> The next clue is in: /usr/share/javascript/mathjax/jax/output/SVG/fonts/STIX-Web/Normal
+> Yahaha, you found me!  
+The next clue is in: /usr/share/javascript/mathjax/jax/output/SVG/fonts/STIX-Web/Normal
 - ran `ls /usr/share/javascript/mathjax/jax/output/SVG/fonts/STIX-Web/Normal` in the terminal to list all files in the directory
 - found the file `MEMO` and ran `cat /usr/share/javascript/mathjax/jax/output/SVG/fonts/STIX-Web/Normal/MEMO` in the terminal to get the next clue:
-> Yahaha, you found me!
-> The next clue is in: /usr/share/javascript/mathjax/unpacked/jax/output/HTML-CSS/fonts/STIX-Web/Size5/Regular
+> Yahaha, you found me!  
+The next clue is in: /usr/share/javascript/mathjax/unpacked/jax/output/HTML-CSS/fonts/STIX-Web/Size5/Regular
 
 > Watch out! The next clue is **trapped**. You'll need to read it out without 'cd'ing into the directory; otherwise, the clue will self destruct!
 - ran `ls /usr/share/javascript/mathjax/unpacked/jax/output/HTML-CSS/fonts/STIX-Web/Size5/Regular` in the terminal to list all files in the directory
 - found the file `SECRET-TRAPPED` and ran `cat /usr/share/javascript/mathjax/unpacked/jax/output/HTML-CSS/fonts/STIX-Web/Size5/Regular/SECRET-TRAPPED` in the terminal to get the next clue:
-> Tubular find!
-> The next clue is in: /opt/linux/linux-5.4/drivers/i2c/busses
+> Tubular find!  
+The next clue is in: /opt/linux/linux-5.4/drivers/i2c/busses
 
 > The next clue is **hidden** --- its filename starts with a '.' character. You'll need to look for it using special options to 'ls'.
 - ran `ls -a /opt/linux/linux-5.4/drivers/i2c/busses` in the terminal to list all files in the directory, including hidden files
